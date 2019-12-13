@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.github.loic.frigo.view.HomeActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:background="@color/colorPrimary"
+        android:id="@+id/activityHome_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activityHome_textView"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:background="@color/colorPrimaryDark"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"
+        android:id="@+id/activityHome_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dans mon frigo"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+    </TextView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/activityHome_FloatingActionButton_Check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="@color/colorPrimaryDark"
+        android:clickable="true"
+        android:scaleType="center"
+        app:layout_constraintBottom_toTopOf="@+id/activityHome_FloatingActionButton_delete"
+        app:layout_constraintEnd_toEndOf="@+id/activityHome_FloatingActionButton_AddElement"
+        app:srcCompat="@drawable/check" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/activityHome_FloatingActionButton_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:background="@color/colorPrimaryDark"
+        android:clickable="true"
+        android:scaleType="center"
+        app:layout_constraintBottom_toTopOf="@+id/activityHome_FloatingActionButton_AddElement"
+        app:layout_constraintEnd_toEndOf="@+id/activityHome_FloatingActionButton_AddElement"
+        app:srcCompat="@drawable/corbeille" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/activityHome_FloatingActionButton_AddElement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:background="@color/colorPrimaryDark"
+        android:clickable="true"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ajouter" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

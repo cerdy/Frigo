@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="Ingrédients dans mon frigo"
+        android:textSize="32dp"
+        android:paddingTop="25dp"
+        android:paddingBottom="25dp"
+        android:background="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:id="@+id/popUp_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/popUp_recyclerView"
+        android:background="@color/colorPrimary"
+        android:layout_width="0dp"
+        android:layout_height="500dp"
+        app:layout_constraintBottom_toTopOf="@+id/popUp_button"
+        app:layout_constraintEnd_toEndOf="@+id/popUp_textView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/popUp_textView"
+        />
+
+    <Button
+        android:textAlignment="center"
+        android:textSize="22dp"
+        android:textColor="#ff0000"
+        android:text="Tout ajouter"
+        android:id="@+id/popUp_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/popUp_textView"
+        app:layout_constraintTop_toBottomOf="@+id/popUp_recyclerView" />
+</androidx.constraintlayout.widget.ConstraintLayout>
