@@ -48,8 +48,8 @@ Apres selection des aliments on a :
 ###Afin d'améliorer mon application je pense à implémenter les points suivants:
     - Ajouter une option « vidéo » pour chaque recette afin de mieux expliquer a utilisateur comment concocté les repas
     - Ajouter plus de recette 
-     - Améliorer ergonomie de l’application
-     - ajouter une image devant chaque aliment 
+    - Améliorer ergonomie de l’application
+    - ajouter une image devant chaque aliment 
 
 compétences acquises:
 
