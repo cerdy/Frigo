@@ -13,10 +13,10 @@ Dans le cadre de ma formation d'ingénieur à ESIEA, ll m'a été demander de d�
 
 #Présentation de mon application
 
-![Capture1](https://user-images.githubusercontent.com/47140691/70948601-133bfd00-205c-11ea-94ee-c5ba37054d55.PNG)
-
-        Pour résumé, il s’agit d’une application de Cuisine personnalisé qui aide son utilisateur à faire de bon petit plats avec ce qu’il peut trouver dans son frigo. (Tout cela grâce à une base de données de recette fait maison).
+![Capture1](https://user-images.githubusercontent.com/47140691/70948601-133bfd00-205c-11ea-94ee-c5ba37054d55.PNG) 
  
+   Pour résumé, il s’agit d’une application de Cuisine personnalisé qui aide son utilisateur à faire de bon petit plats avec ce qu’il peut trouver dans son frigo. (Tout cela grâce à une base de données de recette fait maison).dispose.
+   
  =>Etape 1
  
  Utilisateur ouvre son frigo et sélectionne dans application les aliments dont il dispose.
@@ -35,6 +35,7 @@ Apres selection des aliments on a :
 
 ![Capture4](https://user-images.githubusercontent.com/47140691/70948599-133bfd00-205c-11ea-8b59-b91c528c36da.PNG)
  
+## En conclusion 
 
 #partie à amélioration
 
@@ -42,3 +43,9 @@ Apres selection des aliments on a :
     - Ajouter une option « vidéo » pour chaque recette afin de mieux expliquer a utilisateur comment concocté les repas.
     - Ajouter plus de recette 
      - Améliorer ergonomie de l’application
+
+compétences acquises:
+
+   => creation d'une API
+   => meilleur comprehension de GIT
+   => amelioration de capacités d'analyse 
