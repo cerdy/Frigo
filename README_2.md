@@ -34,15 +34,22 @@ Apres selection des aliments on a :
  En fonction des aliments sélectionnés l’application propose à utilisateur un ensemble de recette qu’il peut réalité en fonction de ses envies.
 
 ![Capture4](https://user-images.githubusercontent.com/47140691/70948599-133bfd00-205c-11ea-8b59-b91c528c36da.PNG)
+
+## fonctionnalité 
+  - On peut supprimer un ou plusieurs aliments(d'un seul coup) 
+  - on peut ajouter les aliments en désordre et automatiquement il sont classé en ordre (alphabétique)
+  - on a un grand evantaille d'aliments et une grande liste de recette 
+  - etc
  
 ## En conclusion 
 
 #partie à amélioration
 
 ###Afin d'améliorer mon application je pense à implémenter les points suivants:
-    - Ajouter une option « vidéo » pour chaque recette afin de mieux expliquer a utilisateur comment concocté les repas.
+    - Ajouter une option « vidéo » pour chaque recette afin de mieux expliquer a utilisateur comment concocté les repas
     - Ajouter plus de recette 
      - Améliorer ergonomie de l’application
+     - ajouter une image devant chaque aliment 
 
 compétences acquises:
 
