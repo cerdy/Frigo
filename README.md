@@ -1,4 +1,5 @@
 ## Transformation du json en sql
+### >>>> Tous les détails concernant le projet sont le README_2.md <<<< ####
 ### SQL pour Les recettes
 ```js
 // jsonText est le fichier json de base
